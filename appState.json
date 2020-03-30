@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "tranlateindu30.js",
         "cursor": {
-          "lineNumber": 11,
-          "column": 31
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -21,7 +21,16 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [],
+        "testCases": {
+          "388e549c-15c3-4f87-8b90-b2907c6b7995": {
+            "id": "388e549c-15c3-4f87-8b90-b2907c6b7995",
+            "name": "Test event",
+            "functionId": "47c4d30d-6513-4bdb-ba5a-63980325df4e",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -69,7 +78,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585571770453
+    "lastSave": 1585572527154
   },
   "VCS_STATE": {
     "provider": "GitHub",
