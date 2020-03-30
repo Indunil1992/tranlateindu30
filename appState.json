@@ -1,0 +1,81 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "47c4d30d-6513-4bdb-ba5a-63980325df4e": {
+        "id": "47c4d30d-6513-4bdb-ba5a-63980325df4e",
+        "parent": null,
+        "name": "tranlateindu30.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "tranlateindu30.js",
+        "cursor": {
+          "lineNumber": 11,
+          "column": 31
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "openFiles": [
+      "47c4d30d-6513-4bdb-ba5a-63980325df4e"
+    ],
+    "currentFileId": "47c4d30d-6513-4bdb-ba5a-63980325df4e",
+    "resources": {
+      "translateResource": {
+        "name": "translateResource",
+        "type": "Translate",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "tranlateindu30",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1585571770453
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "tranlateindu30",
+      "url": "https://github.com/Indunil1992/tranlateindu30"
+    }
+  }
+}
